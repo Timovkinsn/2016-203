@@ -109,7 +109,7 @@ void timovkin::lab3()
        x[i]=(y[i]-summa)/L[i][i];
        summa=0;
       }
-      delete[] y;
+      delete[] y;//1
 
 }
 
